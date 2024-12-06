@@ -315,7 +315,7 @@ body {
 .item div {
 	cursor: pointer;
 	padding: 5px;
-	flex: 1;
+	
 	
 }
 
@@ -391,8 +391,8 @@ body {
 
 .movie-title {
 	position: absolute;
-	top: 75%;
-	left: 45%;
+	top: 210px;
+	left: 100px;
 	transform: translate(-50%,-50%);
 	opacity: 1;
 	transition: opacity 0.3s ease-in-out;
@@ -403,6 +403,7 @@ body {
 }
 .movie-title h3{
 	margin: 0;
+	text-align: center;
 }
 
 .movie-container:hover .movie-title {
