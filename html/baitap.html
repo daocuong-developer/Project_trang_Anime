@@ -1,0 +1,2023 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Luan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/baitap.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
+</head>
+<body>
+    <div class="nav">
+        <img src="../image/logo2.png" class="logo">
+        <ul class="menu">
+            <li><a href="#"> TRANG CHỦ</a></li>
+            <li class="menu_link"><a href="#">DẠNG ANIME</a>
+                <ul class="menu_down">
+                    <li><a href="#">TV/Series</a></li>
+					<li><a href="#">Movie/OVA</a></li>
+					<li><a href="#">HH Trung Quốc</a></li>
+					<li><a href="#">Anime Sắp chiếu</a></li>
+					<li><a href="#">Anime Đang Chiếu</a></li>
+					<li><a href="#">Anime Trọn bộ</a></li>
+                </ul>
+            </li>
+            <li class="menu_link"><a href="#">TOP ANIME</a>
+                <ul class="menu_down">
+                    <li><a href="#">Theo ngày</a></li>
+                    <li><a href="#">Yêu thích</a></li>
+                    <li><a href="#">Theo mùa</a></li>
+                    <li><a href="#">Theo tháng</a></li>
+                    <li><a href="#">Theo năm</a></li>
+                </ul>
+            </li>
+            <li class="menu_link"><a href="#">THỂ LOẠI</a>
+                <ul class="menu_down">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Cartoon</a></li>
+                    <li><a href="#">Comedy</a></li>
+                    <li><a href="#">Dementia</a></li>
+                    <li><a href="#">Demons</a></li>
+                    <li><a href="#">Drama</a></li>
+                    <li><a href="#">Ecchi</a></li>
+                    <li><a href="#">Fantasy</a></li>
+                    <li><a href="#">Game</a></li>
+                    <li><a href="#">Harem</a></li>
+                    <li><a href="#">Historical</a></li>
+                    <li><a href="#">Horror</a></li>
+                    <li><a href="#">Josei</a></li>
+                    <li><a href="#">Kids</a></li>
+                </ul>
+            </li>
+            <li class="menu_link"><a href="#">SEASON</a>
+                <ul class="menu_down">
+                    <li><a href="#">Mùa Đông 2023</a></li>
+                    <li><a href="#">Mùa Xuân 2023</a></li>
+                    <li><a href="#">Mùa Thu 2023</a></li>
+                    <li><a href="#">Mùa Hè 2023</a></li>
+                    <li><a href="#">Mùa Đông 2022</a></li>
+                    <li><a href="#">Mùa Xuân 2022</a></li>
+                    <li><a href="#">Mùa Thu 2022</a></li>
+                    <li><a href="#">Mùa Hè 2022</a></li>
+                </ul>
+            </li>
+            <li><a href="#">THƯ VIỆN</a></li>
+            <li><a href="#">LỊCH CHIẾU</a></li>
+            <li>
+                <div id="search">
+                    <form>
+                        <input type="text" name="keyword" placeholder="Tìm: anh, việt" onkeyup="onSearch(this.value,'SearchDesktop')" >
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <div class="login">
+                    <a href="./login.html" class="login_a" >Đăng nhập</a>
+                </div>
+            </li>
+        </ul>
+        <label for="nav_bars-checkbox" class="nav_bars-button"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="nav_bars-checkbox" class="checked-button">
+        <label for="nav_bars-checkbox" class="nav-overlay"></label>
+        <label for="nav_bars-checkbox" class="nav_mobile">
+            <label for="nav_bars-checkbox" class="exit"><i class="fa-solid fa-xmark"></i></label>
+            <ul class="menu_mobile-list">
+                <li class="menu_mobile-link"><a href="#"> TRANG CHỦ</a></li>
+                <li class="menu_mobile-link"><a href="#">DẠNG ANIME</a>
+                    <ul class="menu_mobile-down">
+                        <li><a href="#">TV/Series</a></li>
+                        <li><a href="#">Movie/OVA</a></li>
+                        <li><a href="#">HH Trung Quốc</a></li>
+                        <li><a href="#">Anime Sắp chiếu</a></li>
+                        <li><a href="#">Anime Đang Chiếu</a></li>
+                        <li><a href="#">Anime Trọn bộ</a></li>
+                    </ul>
+                </li>
+                <li class="menu_mobile-link"><a href="#">TOP ANIME</a>
+                    <ul class="menu_mobile-down">
+                        <li><a href="#">Theo ngày</a></li>
+                        <li><a href="#">Yêu thích</a></li>
+                        <li><a href="#">Theo mùa</a></li>
+                        <li><a href="#">Theo tháng</a></li>
+                        <li><a href="#">Theo năm</a></li>
+                    </ul>
+                </li>
+                <li class="menu_mobile-link"><a href="#">THỂ LOẠI</a>
+                    <ul class="menu_mobile-down">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Adventure</a></li>
+                        <li><a href="#">Cartoon</a></li>
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Dementia</a></li>
+                        <li><a href="#">Demons</a></li>
+                        <li><a href="#">Drama</a></li>
+                        <li><a href="#">Ecchi</a></li>
+                        <li><a href="#">Fantasy</a></li>
+                        <li><a href="#">Game</a></li>
+                        <li><a href="#">Harem</a></li>
+                        <li><a href="#">Historical</a></li>
+                        <li><a href="#">Horror</a></li>
+                        <li><a href="#">Josei</a></li>
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                </li>
+                <li class="menu_mobile-link"><a href="#">SEASON</a>
+                    <ul class="menu_mobile-down">
+                        <li><a href="#">Mùa Đông 2023</a></li>
+                        <li><a href="#">Mùa Xuân 2023</a></li>
+                        <li><a href="#">Mùa Thu 2023</a></li>
+                        <li><a href="#">Mùa Hè 2023</a></li>
+                        <li><a href="#">Mùa Đông 2022</a></li>
+                        <li><a href="#">Mùa Xuân 2022</a></li>
+                        <li><a href="#">Mùa Thu 2022</a></li>
+                        <li><a href="#">Mùa Hè 2022</a></li>
+                    </ul>
+                </li>
+                <li class="menu_mobile-link"><a href="#">THƯ VIỆN</a></li>
+                <li class="menu_mobile-link"><a href="#">LỊCH CHIẾU</a></li>
+                <li>
+                    <div class="login_mobile">
+                        <a href="file:///D:/nopbaiweb/html/login.html?keyword=" class="login_a" >Đăng nhập</a>
+                    </div>
+                </li>
+            </ul>
+        </label>
+    </div>
+
+    <div class="container-body">
+        <div class="content">
+            <div class="announcement">
+                <span class="ann_title"><i class="fa-solid fa-bullhorn"></i></span>
+                <span class="ann_text">
+                    <ul>
+                        <li>
+                            <p>
+                                <span style="font-size: 22px;color: #f3dd3d">Lưu hoặc nhớ ngay link rút gọn</span>
+                                <span  style="font-size: 22px;"><a href="https://bit.ly/animevietsubtv">bit.ly/animevietsubtv</a></span>
+                                <span style="color: #f3dd3d;font-size: 22px;">để truy cập khi nhà mạng chặn!</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span style="color: #f3dd3d;font-size: 22px;">Mời bạn tham gia group</span>
+                                <span style="font-size: 22px"><a href="https://www.facebook.com/groups/fananimevietsub">tại đây!</a></span>
+                                <span style="color: #f3dd3d;font-size: 22px;">hoặc tham gia Discord tại đây! để ủng hộ AnimeVietsub</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span style="color: #f3dd3d;font-size: 22px;">Do thiếu hút kinh phí nên quảng cáo có thể gây khó chịu, rất mong các bạn thông cảm!</span>
+                            </p>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+            <div class="movielisttop">
+                <div id="box">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/mahoutsukai-no-yome-season-2-a4889/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/codauphapsu.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Cô dâu pháp sư</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/jujutsu-kaisen-2nd-season-i2-a4467/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/jujutsukaisen.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Jujutsu Kaisen Season 2</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta-a5063/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/congaitoi.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Boukensha ni Naritai to Miyako ni Deteitta Musume ga S-Rank ni Natteta</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/boushoku-no-berserk-a5071/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/boushoku.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Boushoku no Berserk</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/dr-stone-3rd-season-i1-a4866/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/dr-stone.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Dr. Stone  Season 3</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/kusuriya-no-hitorigoto-a5061/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/DSTS.jpg"">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Dược sư tự sự</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-a5072/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/100cobangai.png">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/boku-no-hero-academia-6th-season-i1-a4656/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/MHAC.png">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Học Viện Anh Hùng Mùa 6</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/migi-to-dali-a5095/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/migitodaily.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Migi to Dali</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/sword-art-online-r1-a2002/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/SAO1.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Sword Art Online</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/dao-hai-tac-a1/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/onepiece.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>One Piece - Đảo Hải Tặc</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/kage-no-jitsuryokusha-ni-naritakute-2nd-season-i1-a4900/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/tmttctbt.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>
+                                            Ta Muốn Trở Thành Chúa Tể Bóng Tối! Season 2</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/ten-cau-la-gi-a1493/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/YourName.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Tên cậu là gì?</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/thanh-guom-diet-quy-chuyen-tau-vo-tan-movie-i1-a3971/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/demonslayer.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Thanh Gươm Diệt Quỷ: Chuyến Tàu Vô Tận</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/spy-x-family-season-2-i3-a5027/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/spyxfamily.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Spy x Family Season 2</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://animevietsub.fan/phim/konyaku-haki-sareta-reijou-wo-hirotta-ore-ga-ikenai-koto-wo-oshiekomu-a5066/">
+                                <div class="movie-container">
+                                    <div class="image-container">
+                                        <img class="movie-image"  src="../image/tnd1cg.jpg">
+                                        <div class="overlay"></div>
+                                            <div class="play-button">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                    </div>
+                                    <div class="movie-title">
+                                        <h3>Konyaku Haki sareta Reijou wo Hirotta Ore ga</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="TpRwCont">
+                <main>
+                    <div class="MovieListSldCn">
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="./webcon.html">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/big_banner/2023/10/07/animevsub-eZvFSGW1sy.jpg" alt="Background">
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="./webcon.html">
+                                            <div class="Title">Tate no Yuusha no Nariagari Season 3</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>Mùa 3 &nbsp;Sự Trỗi Dậy Của Khiên Anh Hùng -&nbsp;Tate no Yuusha no Nariagari.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Kinema Citrus
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/tate-no-yuusha-no-nariagari-season-3-a4901/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="https://animevietsub.fan/phim/sousou-no-frieren-a5073/">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/big_banner/2023/08/27/animevsub-g5Ysqk3EXo.jpg" alt="Background">
+                                            
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="https://animevietsub.fan/phim/sousou-no-frieren-a5073/">
+                                            <div class="Title">Pháp Sư Tiễn Táng Frieren</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>Tổ đội anh hùng đã đánh bại được quỷ vương và kết thúc cuộc hành trình của họ. Nhưng thế chưa phải...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Madhouse
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                , <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/ma-thuat/" title="Magic">Magic</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/sousou-no-frieren-a5073/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="https://animevietsub.fan/phim/keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-a4928/">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/big_banner/2023/03/17/animevsub-I9BxStPKze.png" alt="Background">
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="https://animevietsub.fan/phim/keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-a4928/">
+                                            <div class="Title">Kẻ Ngây Thơ, Người Từng Trải Và Câu Chuyện Tình Của Chúng Ta</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>"T-Tớ thích cậu" "Hể? Susuki!?" Kashima Ryuuto là một cậu nam sinh tẻ nhạt, buồn chán. Trong một trò chơi trừng...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                ENGI
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                , <a href="https://animevietsub.fan/the-loai/truong-hoc/" title="School">School</a>
+                                                , <a href="https://animevietsub.fan/the-loai/tinh-cam/" title="Romance">Romance</a>
+                                                , <a href="https://animevietsub.fan/the-loai/ecchi/" title="Ecchi">Ecchi</a>
+                                                , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-a4928/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="https://animevietsub.fan/phim/goblin-slayer-2nd-season-i3-a4283/">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/big_banner/2021/09/10/animevsub-0WFWcnoOhN.jpg" alt="Background">
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="https://animevietsub.fan/phim/goblin-slayer-2nd-season-i3-a4283/">
+                                            <div class="Title">Goblin Slayer II</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>Phần 2 của &nbsp;Goblin Slayer &nbsp;nhé.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                LIDENFILMS
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/goblin-slayer-2nd-season-i3-a4283/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="https://animevietsub.fan/phim/ojou-to-banken-kun-a5055/">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/big_banner/2023/08/27/animevsub-auAkDwa31m.png" alt="Background">
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="https://animevietsub.fan/phim/ojou-to-banken-kun-a5055/">
+                                            <div class="Title">Ojou to Banken-kun</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>Senagaki Isaku sẽ là một học sinh trung học năm nhất bắt đầu từ mùa xuân này. Ông của cô là bang chủ đệ Tam...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Project No.9
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                , <a href="https://animevietsub.fan/the-loai/shoujo/" title="Shoujo">Shoujo</a>
+                                                , <a href="https://animevietsub.fan/the-loai/truong-hoc/" title="School">School</a>
+                                                , <a href="https://animevietsub.fan/the-loai/tinh-cam/" title="Romance">Romance</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/ojou-to-banken-kun-a5055/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="https://animevietsub.fan/phim/mahoutsukai-no-yome-season-2-a4889/">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/big_banner/2023/04/06/animevsub-8DUf0lrKzg.jpg" alt="Background">
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="https://animevietsub.fan/phim/mahoutsukai-no-yome-season-2-a4889/">
+                                            <div class="Title">Cô Dâu Pháp Sư Mùa 2</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>Mùa 2 của &nbsp;Mahoutsukai no Yome.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Studio Kafka
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                , <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/sieu-nhien/" title="Supernatural">Supernatural</a>
+                                                , <a href="https://animevietsub.fan/the-loai/tinh-cam/" title="Romance">Romance</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                , <a href="https://animevietsub.fan/the-loai/ma-thuat/" title="Magic">Magic</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/mahoutsukai-no-yome-season-2-a4889/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="https://animevietsub.fan/phim/jujutsu-kaisen-2nd-season-i3-a4467/">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/big_banner/2022/02/14/animevsub-Zp7RsxOePd.jpg" alt="Background">
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="https://animevietsub.fan/phim/jujutsu-kaisen-2nd-season-i3-a4467/">
+                                            <div class="Title">Jujutsu Kaisen 2nd Season</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>Jujutsu Kaisen mùa 2 sẽ tập trung vào thời kỳ Gojo Satoru còn là học sinh của trường Cao đẳng Chú thuật Tokyo, khám...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                MAPPA
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/truong-hoc/" title="School">School</a>
+                                                , <a href="https://animevietsub.fan/the-loai/sieu-nhien/" title="Supernatural">Supernatural</a>
+                                                , <a href="https://animevietsub.fan/the-loai/demons/" title="Demons">Demons</a>
+                                                , <a href="https://animevietsub.fan/the-loai/kinh-di/" title="Horror">Horror</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/jujutsu-kaisen-2nd-season-i3-a4467/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="https://animevietsub.fan/phim/boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta-a5063/">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/big_banner/2023/08/27/animevsub-33FyyFIyUY.jpg" alt="Background">
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="https://animevietsub.fan/phim/boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta-a5063/">
+                                            <div class="Title">Con Gái Tôi Đã Đến Thủ Đô Và Trở Thành Mạo Hiểm Giả Hạng S</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>Sau khi mất một chân và trở về quê, anh đem khả năng và kiến thức khi còn là một mạo hiểm giả cho các công...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Typhoon Graphics
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta-a5063/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="https://animevietsub.fan/phim/dr-stone-3rd-season-i1-a4866/">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/big_banner/2022/12/18/animevsub-e3qdnYj0Br.jpg" alt="Background">
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="https://animevietsub.fan/phim/dr-stone-3rd-season-i1-a4866/">
+                                            <div class="Title">Dr. Stone 3rd Season</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>Mùa 3 của Dr. Stone.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                TMS Entertainment
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/sci-fi/" title="Sci-Fi">Sci-Fi</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/dr-stone-3rd-season-i1-a4866/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="TPostMv">
+                                <div class="TPost D">
+                                    <a href="https://animevietsub.fan/phim/kage-no-jitsuryokusha-ni-naritakute-2nd-season-i1-a4900/">
+                                        <div class="Image">
+                                            <img class="TPostBg" src="https://cdn.animevietsub.fan/data/banner/2023/02/27/animevsub-NkDbvx0sEz.jpg" alt="Background">
+                                        </div>
+                                    </a>
+                                    <div class="TPMvCn">
+                                        <a href="https://animevietsub.fan/phim/kage-no-jitsuryokusha-ni-naritakute-2nd-season-i1-a4900/">
+                                            <div class="Title">Ta Muốn Trở Thành Chúa Tể Bóng Tối! Mùa 2</div>
+                                        </a>
+                                        
+                                        <div class="Description">
+                                            <p>Mùa 2 của &nbsp;Ta Muốn Trở Thành Chúa Tể Bóng Tối!(Kage no Jitsuryokusha ni Naritakute)</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Nexus
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể Loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                , <i class="fa-solid fa-ellipsis"></i>
+                                            </p>
+                                        </div>
+                                        
+                                        <a href="https://animevietsub.fan/phim/kage-no-jitsuryokusha-ni-naritakute-2nd-season-i1-a4900/" class="Button TPlay AAIco-play_arrow">
+                                            Xem <strong>Phim</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        <div class="Movie-dots">
+                            <div>
+                                <span class="dot" id="slide-1" onclick="currentSlide(1)"></span> 
+                                <span class="dot" id="slide-2" onclick="currentSlide(2)"></span> 
+                                <span class="dot" id="slide-3" onclick="currentSlide(3)"></span> 
+                                <span class="dot" id="slide-4" onclick="currentSlide(4)"></span> 
+                                <span class="dot" id="slide-5" onclick="currentSlide(5)"></span> 
+                                <span class="dot" id="slide-6" onclick="currentSlide(6)"></span> 
+                                <span class="dot" id="slide-7" onclick="currentSlide(7)"></span> 
+                                <span class="dot" id="slide-8" onclick="currentSlide(8)"></span> 
+                                <span class="dot" id="slide-9" onclick="currentSlide(9)"></span> 
+                                <span class="dot" id="slide-10" onclick="currentSlide(10)"></span> 
+                            </div>
+                        </div>
+                    </div>
+
+<!--SECTION-SINGLEHOME-->
+                    <section class="single-home">
+                        <div class="Top">
+                            <h1>Mới cập nhật </h1>
+                            <a href="#" class="STPb Current" title="Anime mới cập nhật">Tất cả</a>
+                            <a href="#" class="STPb" title="Anime mùa">Mùa Thu - 2023</a>
+                            <a href="#" class="STPb" title="Anime bộ">Anime bộ</a>
+                            <a href="#" class="STPb" title="Anime lẻ">Anime lẻ</a>
+                            <a href="#" class="STPb" title="Hoạt hình Trung quốc">HH Trung Quốc</a>
+                        </div>
+                        <ul class="MovieListRows">
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/tate-no-yuusha-no-nariagari-season-3-a4901/">
+                                    <div class="image-article">
+                                        <img class="image-1"  src="https://cdn.animevietsub.fan/data/poster/2023/08/28/animevsub-ynsw9L8PBk.jpg">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Tate no Yuusha no Nariagari Season 3</h2>
+                                            <span class="Year">Lượt xem: 2,773,626</span>
+                                    </div>
+                                </a>
+                                <div class="TPMvCn1 anmt">
+                                    <div class="Title">Tate no Yuusha no Nariagari Season 3</div>
+                                    <div class="Description">
+                                        <p class="infor">Mùa 3 &nbsp;Sự Trỗi Dậy Của Khiên Anh Hùng -&nbsp;Tate no Yuusha no Nariagari.</p>
+                                        <p class="Studio AAIco-videocam">
+                                            <i class="fa-solid fa-video"></i>
+                                            <span>Studio:</span>
+                                            Kinema Citrus 
+                                        </p>
+                                        <p class="Genre AAIco-movie_creation">
+                                            <i class="fa-solid fa-clapperboard"></i>
+                                            <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/sousou-no-frieren-a5073/">
+                                    <div class="image-article">
+                                        <img class="image-1"  src="https://cdn.animevietsub.fan/data/poster/2023/08/27/animevsub-uA7yO5hnuT.jpg"">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Pháp Sư Tiễn Táng Frieren</h2>
+                                            <span class="Year">Lượt xem: 3,011,272</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Pháp Sư Tiễn Táng Frieren</div>
+                                        <div class="Description">
+                                            <p class="infor">Tổ đội anh hùng đã đánh bại được quỷ vương và kết thúc cuộc hành trình của họ. Nhưng thế chưa phải...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Madhouse 
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                    <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/ma-thuat/" title="Magic">Magic</a>
+                                                    , 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-a4928/">
+                                    <div class="image-article">
+                                        <img class="image-1" src="https://cdn.animevietsub.fan/data/poster/2023/10/06/animevsub-GOh8xj7XF0.jpg"  alt="Kẻ Ngây Thơ, Người Từng Trải Và Câu Chuyện Tình Của Chúng Ta - Keikenzumi na Kimi to, Keiken Zero na Ore ga, Otsukiai suru Hanashi., Our Dating Story: The Experienced You and The Inexperienced Me, Kimizero (2023)" title="Kẻ Ngây Thơ, Người Từng Trải Và Câu Chuyện Tình Của Chúng Ta (2023)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Kẻ Ngây Thơ, Người Từng Trải Và Câu Chuyện Tình Của Chúng Ta</h2>
+                                            <span class="Year">Lượt xem: 1,553,604</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Kẻ Ngây Thơ, Người Từng Trải Và Câu Chuyện Tình Của Chúng Ta</div>
+                                        <div class="Description">
+                                            <p class="infor">"T-Tớ thích cậu" "Hể? Susuki!?" Kashima Ryuuto là một cậu nam sinh tẻ nhạt, buồn chán. Trong một trò chơi trừng...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                ENGI
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                , <a href="https://animevietsub.fan/the-loai/truong-hoc/" title="School">School</a>
+                                                , <a href="https://animevietsub.fan/the-loai/tinh-cam/" title="Romance">Romance</a>
+                                                , <a href="https://animevietsub.fan/the-loai/ecchi/" title="Ecchi">Ecchi</a>
+                                                , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/goblin-slayer-2nd-season-i3-a4283/">
+                                    <div class="image-article">
+                                        <img src="https://cdn.animevietsub.fan/data/poster/2023/12/01/animevsub-H6OtsKeNtN.jpg" class="image-1" alt="Goblin Slayer II - Dũng Sĩ Diệt Yêu Tinh Mùa 2, Goblin Slayer SS2, Goblin Slayer 2nd Season (2023)" title="Goblin Slayer II (2023)">
+                                        <div class="overlay1"></div>
+                                        <div class="button-playpause">
+                                            <i class="fa-regular fa-circle-play"></i>
+                                        </div>
+                                        <h2 class="Title">Goblin Slayer II</h2>
+                                        <span class="Year">Lượt xem: 1,769,895</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Goblin Slayer II</div>
+                                        <div class="Description">
+                                            <p class="infor">Phần 2 của &nbsp;Goblin Slayer &nbsp;nhé.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                LIDENFILMS
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/under-ninja-a5050/">
+                                    <div class="image-article">
+                                        <img src="https://cdn.animevietsub.fan/data/poster/2023/08/27/animevsub-DNOmEwsy8X.jpg" class="image-1" alt="Under Ninja - アンダーニンジャ (2023)" title="Under Ninja (2023)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Under Ninja</h2>
+                                            <span class="Year">Lượt xem: 186,658</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Under Ninja</div>
+                                        <div class="Description">
+                                            <p class="infor">Ninja tưởng chừng như đã bị tiêu diệt sau Thế chiến thứ 2 nhưng thực ra họ vẫn còn tồn tại cho đến ngày...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                 Tezuka Productions
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                    <span>Thể loại:</span>
+                                                    <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/seinen/" title="Seinen">Seinen</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                    ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/cuu-thien-huyen-de-quyet-a4272/">
+                                    <div class="image-article">
+                                        <img src="https://cdn.animevietsub.fan/data/poster/2021/09/05/animevsub-2thKpEgWL2.jpg" class="image-1" alt="Cửu Thiên Huyền Đế Quyết - The Success Of Empyrean Xuan Emperor (2021)" title="Cửu Thiên Huyền Đế Quyết (2021)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Cửu Thiên Huyền Đế Quyết</h2>
+                                            <span class="Year">Lượt xem: 1,834,588</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Cửu Thiên Huyền Đế Quyết</div>
+                                        <div class="Description">
+                                            <p class="infor">Tương truyền Huyền Đế tạo ra Cửu Thiên Huyền Đế Quyết, trở thành võ đạo Nguyên Đầu. Hậu thế của võ đạo...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Đang Cập Nhập
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/thap-phuong-vo-thanh-a5128/">
+                                    <div class="image-article">
+                                        <img src="https://cdn.myanimelist.net/images/anime/1499/139309.jpg" class="image-1" alt="Thập Phương Võ Thánh">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Thập Phương Võ Thánh</h2>
+                                            <span class="Year">Lượt xem: 88,365</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Thập Phương Võ Thánh</div>
+                                        <div class="Description">
+                                            <p class="infor">Vào năm thứ ba dưới triều đại của Hoàng đế Shizong, thế giới hỗn loạn và người dân rất khó kiếm sống. Chính...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                    <a href="https://animevietsub.fan/the-loai/cartoon/" title="Cartoon">Cartoon</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/lich-su/" title="Historical">Historical</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                    ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/vo-thuong-than-de-a3821/">
+                                    <div class="image-article">
+                                        <img src="https://cdn.animevietsub.fan/data/poster/2020/09/05/animevsub-bBwWl7ZXel.jpg" class="image-1" alt="Vô Thượng Thần Đế - Supreme God Emperor, Wu Shang Shen Di (2020)" title="Vô Thượng Thần Đế (2020)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Vô Thượng Thần Đế</h2>
+                                            <span class="Year">Lượt xem: 4,999,389</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Vô Thượng Thần Đế</div>
+                                        <div class="Description">
+                                            <p class="infor">Tiên Vương Mục Vân bởi vì nắm giữ Tru Tiên Đồ mà bị kẻ khác ám toán, tàn hồn ngủ say vạn năm sau, thức tỉnh...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Ruo Hong Culture 
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                    <a href="https://animevietsub.fan/the-loai/sieu-nhien/" title="Supernatural">Supernatural</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/ma-thuat/" title="Magic">Magic</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                    ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/nghich-thien-chi-ton-a4194/">
+                                    <div class="image-article">
+                                        <img src="https://cdn.animevietsub.fan/data/poster/2021/07/17/animevsub-tJWxR8WuKy.png" class="image-1" alt="Nghịch Thiên Chí Tôn - Ni Tian Zhizun, Against The Sky Supreme, N.T.Z.Z (2021)" title="Nghịch Thiên Chí Tôn (2021)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Nghịch Thiên Chí Tôn</h2>
+                                            <span class="Year">Lượt xem: 4,259,972</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Nghịch Thiên Chí Tôn</div>
+                                        <div class="Description">
+                                            <p class="infor">Ngày xưa uy chấn chư thiên Thần Vực, vạn thế luân hồi sau thảm tao diệt môn!
+                                                Tàn khốc nguyền rủa, vạn thế...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                    <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                    ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/dan-dao-chi-ton-a5170/">
+                                    <div class="image-article">
+                                        <img src="https://cdn.animevietsub.fan/data/poster/2023/12/22/animevsub-eaABK2E4Tp.jpeg" class="image-1" alt="Đan Đạo Chí Tôn - Dan Dao Zhi Zun ()" title="Đan Đạo Chí Tôn ">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Đan Đạo Chí Tôn</h2>
+                                            <span class="Year">Lượt xem: 15,051</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Đan Đạo Chí Tôn</div>
+                                        <div class="Description">
+                                            <p class="infor">Lửa thần thiêu đốt, nhập thể hồi sinh, nhưng lại bị truy sát đủ đường. Để sống, hắn không ngừng tranh đấu...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/cartoon/" title="Cartoon">Cartoon</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="https://animevietsub.fan/anime-moi/" class="viewall">
+                            Xem thêm..
+                        </a>
+                    </section>
+<!--SECTION-NEWHOME-->
+                    <section class="new-home">
+                        <div class="Top">
+                            <h1>Sắp chiếu</h1>
+                        </div>
+                        <ul class="MovieListRows">
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/kage-no-jitsuryokusha-ni-naritakute-movie-zankyou-hen-a5169/">
+                                    <div class="image-article">
+                                        <img class="image-1 O"  src="https://cdn.animevietsub.fan/data/poster/2023/12/21/animevsub-QODuZ1dMcL.jpg" alt="Ta Muốn Trở Thành Chúa Tể Bóng Tối! Movie - Kage no Jitsuryokusha ni Naritakute! Movie: Zankyou-hen, The Eminence in Shadow Movie: Lost Echoes Arc (20XX)" title="Ta Muốn Trở Thành Chúa Tể Bóng Tối! Movie (20XX)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                            <span class="b">20XX</span>
+                                            <h2 class="Title">Ta Muốn Trở Thành Chúa Tể Bóng Tối! Movie</h2>
+                                            <span class="Year">Lượt xem: 64,227</span>
+                                    </div>
+                                </a>
+                                <div class="TPMvCn1 anmt">
+                                    <div class="Title">Ta Muốn Trở Thành Chúa Tể Bóng Tối! Movie</div>
+                                    <div class="Description">
+                                        <p class="infor">Phần Movie của: Ta Muốn Trở Thành Chúa Tể Bóng Tối! (Kage no Jitsuryokusha ni Naritakute!)</p>
+                                        <p class="Studio AAIco-videocam">
+                                            <i class="fa-solid fa-video"></i>
+                                            <span>Studio:</span>
+                                            Nexus 
+                                        </p>
+                                        <p class="Genre AAIco-movie_creation">
+                                            <i class="fa-solid fa-clapperboard"></i>
+                                            <span>Thể loại:</span>
+                                            <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                            , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                            , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                            ,
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/ore-dake-level-up-na-kudan-a4636/">
+                                    <div class="image-article">
+                                        <img class="image-1 O"  src="https://cdn.animevietsub.fan/data/poster/2023/03/22/animevsub-8O84ELioyF.jpg" alt="Solo Leveling - Ore dake Level Up na Ken, Na Honjaman Level Up, I Level Up Alone (2024)" title="Solo Leveling (2024)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                            <span class="b">2024</span>
+                                            <h2 class="Title">Solo Leveling</h2>
+                                            <span class="Year">Lượt xem: 206,639</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Solo Leveling</div>
+                                        <div class="Description">
+                                            <p class="infor">Trong một thế giới mà những thợ săn, những con người sở hữu khả năng phép thuật, phải chiến đấu với những...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                A-1 Pictures 
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3rd-season-a5033/">
+                                    <div class="image-article">
+                                        <img class="image-1 O" src="https://cdn.animevietsub.fan/data/poster/2023/12/07/animevsub-mzv5Xxg7Tx.jpg" alt="Chào Mừng Đến Với Lớp Học Đề Cao Thực Lực 3 - Chào Mừng Tới Lớp Học Biết Tuốt 3, Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season, Classroom of the Elite III, Welcome to the Classroom of the Elite, You-jitsu 3rd Season, You-zitsu 3rd Season (2024)" title="Chào Mừng Đến Với Lớp Học Đề Cao Thực Lực 3 (2024)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                            <span class="b">2024</span>
+                                            <h2 class="Title">Chào Mừng Đến Với Lớp Học Đề Cao Thực Lực 3</h2>
+                                            <span class="Year">Lượt xem: 190,235</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Chào Mừng Đến Với Lớp Học Đề Cao Thực Lực 3</div>
+                                        <div class="Description">
+                                            <p class="infor">Mùa 3 của &nbsp;Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <span>Studio:</span>
+                                                Lerche <i class="fa-solid fa-video"></i>
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                , <a href="https://animevietsub.fan/the-loai/truong-hoc/" title="School">School</a>
+                                                , <a href="https://animevietsub.fan/the-loai/psychological/" title="Psychological">Psychological</a>
+                                                , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/tsuki-ga-michibiku-isekai-douchuu-2nd-season-a4327/">
+                                    <div class="image-article">
+                                        <img class="image-1 O" src="https://cdn.animevietsub.fan/data/poster/2023/12/07/animevsub-SCwnvRoP0m.jpg" alt="Nguyệt Đạo Dị Giới Mùa 2 - Tsuki ga Michibiku Isekai Douchuu 2nd Season, Tsukimichi -Moonlit Fantasy- Season 2 (2024)" title="Nguyệt Đạo Dị Giới Mùa 2 (2024)">
+                                        <div class="overlay1"></div>
+                                        <div class="button-playpause">
+                                            <i class="fa-regular fa-circle-play"></i>
+                                        </div>
+                                        <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                        <span class="b">2024</span>
+                                        <h2 class="Title">Nguyệt Đạo Dị Giới Mùa 2</h2>
+                                        <span class="Year">Lượt xem: 689,390</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Nguyệt Đạo Dị Giới Mùa 2</div>
+                                        <div class="Description">
+                                            <p class="infor">Mùa 2 của &nbsp;Tsuki ga Michibiku Isekai Douchuu.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                J.C.Staff
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/mashle-2nd-season-a5108/">
+                                    <div class="image-article">
+                                        <img class="image-1 O" src="https://cdn.animevietsub.fan/data/poster/2023/12/07/animevsub-5zB6OovVzG.jpg" alt="Mashle 2nd Season - Mashle SS2, Mashle: Magic and Muscles Season 2 (2024)" title="Mashle 2nd Season (2024)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                            <span class="b">2024</span>
+                                            <h2 class="Title">Mashle 2nd Season</h2>
+                                            <span class="Year">Lượt xem: 56,650</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Mashle 2nd Season</div>
+                                        <div class="Description">
+                                            <p class="infor">Mùa thứ 2 của &nbsp;Mashle</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                A-1 Pictures
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/truong-hoc/" title="School">School</a>
+                                                , <a href="https://animevietsub.fan/the-loai/sieu-nhien/" title="Supernatural">Supernatural</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/parody/" title="Parody">Parody</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/boku-no-kokoro-no-yabai-yatsu-season-2-a5164/">
+                                    <div class="image-article">
+                                        <img class="image-1 O" src="https://cdn.animevietsub.fan/data/poster/2023/12/07/animevsub-zUV0zmOUfD.jpg"  alt="Boku no Kokoro no Yabai Yatsu Season 2 - The Dangers in My Heart Season 2, Bokuyaba (2024)" title="Boku no Kokoro no Yabai Yatsu Season 2 (2024)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                            <span class="b">2024</span>
+                                            <h2 class="Title">Boku no Kokoro no Yabai Yatsu Season 2</h2>
+                                            <span class="Year">Lượt xem: 13,802</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Boku no Kokoro no Yabai Yatsu Season 2</div>
+                                        <div class="Description">
+                                            <p class="infor">Mùa 2 của &nbsp;Boku no Kokoro no Yabai Yatsu.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Shin-Ei Animation
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/truong-hoc/" title="School">School</a>
+                                                , <a href="https://animevietsub.fan/the-loai/tinh-cam/" title="Romance">Romance</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd-a5163/">
+                                    <div class="image-article">
+                                        <img class="image-1 O" src="https://cdn.animevietsub.fan/data/poster/2023/12/07/animevsub-oPIOVZjs87.jpg" title="Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita 2nd (2024)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                            <span class="b">2024</span>
+                                            <h2 class="Title">Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita 2nd</h2>
+                                            <span class="Year">Lượt xem: 24,061</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita 2nd</div>
+                                        <div class="Description">
+                                            <p class="infor">Mùa 2 của &nbsp;Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Studio Flad
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                , <a href="https://animevietsub.fan/the-loai/tinh-cam/" title="Romance">Romance</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga-a5162/">
+                                    <div class="image-article">
+                                        <img class="image-1 O" src="https://cdn.animevietsub.fan/data/poster/2023/12/07/animevsub-HT0898exZH.jpg" title="Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga. (2024)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                            <span class="b">2024</span>
+                                            <h2 class="Title">Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.</h2>
+                                            <span class="Year">Lượt xem: 9,139</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.</div>
+                                        <div class="Description">
+                                            <p class="infor">Cheats tối thượng? Ma thuật vô hạn? Khả năng nắm giữ mọi nguyên mẫu? Anh đây cho một hit không phải cả đám...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Okuruto Noboru
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/ecchi/" title="Ecchi">Ecchi</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/ao-no-exorcist-shimane-illuminati-hen-a5161/">
+                                    <div class="image-article">
+                                        <img  class="image-1 O" src="https://cdn.animevietsub.fan/data/poster/2023/12/07/animevsub-FVM48KmADq.jpg" alt="Ao no Exorcist: Shimane Illuminati-hen - Blue Exorcist: Shimane Illuminati Saga, Ao no Futsumashi (2024)" title="Ao no Exorcist: Shimane Illuminati-hen (2024)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                            <span class="b">2024</span>
+                                            <h2 class="Title">Ao no Exorcist: Shimane Illuminati-hen</h2>
+                                            <span class="Year">Lượt xem: 11,875</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Ao no Exorcist: Shimane Illuminati-hen</div>
+                                        <div class="Description">
+                                            <p class="infor">Mùa 3 của &nbsp;Ao no Exorcist.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Studio VOLN 
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/sieu-nhien/" title="Supernatural">Supernatural</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item">
+                                <a href="https://animevietsub.fan/phim/mato-seihei-no-slave-a5160/">
+                                    <div class="image-article">
+                                        <img class="image-1 O" src="https://cdn.animevietsub.fan/data/poster/2023/12/07/animevsub-IjgbQTxk57.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Mato Seihei no Slave - Chained Soldier, Slave of the Magic Capital&#39s Elite Troops, Mabotai (2024)" title="Mato Seihei no Slave (2024)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <span class="mli-timeschedule">SẮP CHIẾU</span>
+                                            <span class="b">2024</span>
+                                            <h2 class="Title">Mato Seihei no Slave</h2>
+                                            <span class="Year">Lượt xem: 11,148</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Mato Seihei no Slave</div>
+                                        <div class="Description">
+                                            <p class="infor">Câu chuyện lấy mốc thời gian từ nhiều thập kỉ trước, một cánh cổng thần kỳ xuất hiện. Nó cho phép mọi...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Seven Arcs 
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/sieu-nhien/" title="Supernatural">Supernatural</a>
+                                                , <a href="https://animevietsub.fan/the-loai/harem/" title="Harem">Harem</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/ecchi/" title="Ecchi">Ecchi</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="https://animevietsub.fan/anime-sap-chieu/" class="viewall">
+                            Xem thêm.. 
+                        </a>
+                    </section>
+<!--SECTION-HOTHOME-->
+                    <section class="hot-home">
+                        <div class="Top">
+                            <h1> Đề cử </h1>
+                            <button class="active" type-movie="all">Xem nhiều hôm nay</button>
+                            <button type-movie="season">Xem nhiều trong mùa </button>
+                            <button type-movie="favorite">Yêu thích</button>
+                            <button type-movie="month">Tháng</button>
+                        </div>
+                        <ul class="MovieListRows">
+                            <li class="Movie-item" type-movie="season">
+                                <a href="https://animevietsub.fan/phim/jujutsu-kaisen-2nd-season-i3-a4467/">
+                                    <div class="image-article">
+                                        <img class="image-1 " src="https://cdn.animevietsub.fan/data/poster/2022/02/14/animevsub-SOESV0gsCC.jpg" alt="Jujutsu Kaisen 2nd Season - Jujutsu Kaisen SS2, Chú Thuật Hồi Chiến Mùa 2, Sorcery Fight, JJK 2 (2023)" title="Jujutsu Kaisen 2nd Season (2023)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Jujutsu Kaisen 2nd Season</h2>
+                                            <span class="Year">Lượt xem: 27,860,980</span>
+                                    </div>
+                                </a>
+                                <div class="TPMvCn1 anmt">
+                                    <div class="Title">Jujutsu Kaisen 2nd Season</div>
+                                    <div class="Description">
+                                        <p class="infor">Jujutsu Kaisen mùa 2 sẽ tập trung vào thời kỳ Gojo Satoru còn là học sinh của trường Cao đẳng Chú thuật Tokyo, khám...</p>
+                                        <p class="Studio AAIco-videocam">
+                                            <i class="fa-solid fa-video"></i>
+                                            <span>Studio:</span>
+                                                MAPPA
+                                        </p>
+                                        <p class="Genre AAIco-movie_creation">
+                                            <i class="fa-solid fa-clapperboard"></i>
+                                            <span>Thể loại:</span>
+                                            <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                            , <a href="https://animevietsub.fan/the-loai/truong-hoc/" title="School">School</a>
+                                            , <a href="https://animevietsub.fan/the-loai/sieu-nhien/" title="Supernatural">Supernatural</a>
+                                            , <a href="https://animevietsub.fan/the-loai/demons/" title="Demons">Demons</a>
+                                            , <a href="https://animevietsub.fan/the-loai/kinh-di/" title="Horror">Horror</a>
+                                            , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                            , 
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="Movie-item" type-movie="season">
+                                <a href="https://animevietsub.fan/phim/kage-no-jitsuryokusha-ni-naritakute-2nd-season-i1-a4900/">
+                                    <div class="image-article">
+                                        <img class="image-1 "  src="https://cdn.animevietsub.fan/data/poster/2023/10/04/animevsub-yj5lzA9X5G.jpg" alt="Ta Muốn Trở Thành Chúa Tể Bóng Tối! Mùa 2 - Kage no Jitsuryokusha ni Naritakute! 2nd Season, The Eminence in Shadow Season 2, Shadow Garden 2nd Season (2023)" title="Ta Muốn Trở Thành Chúa Tể Bóng Tối! Mùa 2 (2023)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Ta Muốn Trở Thành Chúa Tể Bóng Tối! Mùa 2</h2>
+                                            <span class="Year">Lượt xem: 12,298,523</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Ta Muốn Trở Thành Chúa Tể Bóng Tối! Mùa 2</div>
+                                            <div class="Description">
+                                                <p class="infor">Mùa 2 của &nbsp;Ta Muốn Trở Thành Chúa Tể Bóng Tối!(Kage no Jitsuryokusha ni Naritakute)</p>
+                                                <p class="Studio AAIco-videocam">
+                                                    <i class="fa-solid fa-video"></i>
+                                                    <span>Studio:</span>
+                                                    Nexus
+                                                </p>
+                                                <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                    <span>Thể loại:</span>
+                                                    <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                    , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                    ,
+                                                </p>
+                                            </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item" type-movie="season">
+                                <a href="https://animevietsub.fan/phim/dr-stone-3rd-season-i1-a4866/">
+                                    <div class="image-article">
+                                        <img class="image-1 " src="https://cdn.animevietsub.fan/data/poster/2023/06/01/animevsub-08HpjmhPWL.jpg" alt="Dr. Stone 3rd Season - Dr. Stone: New World, Dr. Stone Season 3, Dr. Stone SS3 (2023)" title="Dr. Stone 3rd Season (2023)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Dr. Stone 3rd Season</h2>
+                                            <span class="Year">Lượt xem: 10,196,458</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Dr. Stone 3rd Season</div>
+                                        <div class="Description">
+                                            <p class="infor">Mùa 3 của Dr. Stone.</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                TMS Entertainment
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/sci-fi/" title="Sci-Fi">Sci-Fi</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item" type-movie="favorite">
+                                <a href="https://animevietsub.fan/phim/dao-hai-tac-a1/">
+                                    <div class="image-article">
+                                        <img class="image-1" src="https://cdn.animevietsub.fan/data/poster/2019/09/27/animevsub-sQCBqYz9ve.jpg" title="onepiece-Vua Hải Tặc">
+                                        <div class="overlay1"></div>
+                                        <div class="button-playpause">
+                                            <i class="fa-regular fa-circle-play"></i>
+                                        </div>
+                                        <h2 class="Title">One Piece - Đảo Hải Tặc</h2>
+                                        <span class="Year">Lượt xem: 116,206,001</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">One Piece - Đảo Hải Tặc</div>
+                                        <div class="Description">
+                                            <p class="infor">Monkey D. Luffy, 1 cậu bé rất thích Đảo hải tặc có ước mơ tìm được kho báu One Piece và trở thành Vua hải tặc...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Toei Animation 
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/super-power/" title="Super Power">Super Power</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/drama/" title="Drama">Drama</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item" type-movie="favorite">
+                                <a href="https://animevietsub.fan/phim/the-gioi-phep-thuat-a474/">
+                                    <div class="image-article">
+                                        <img class="image-1" src="https://cdn.animevietsub.fan/data/poster/2020/10/17/animevsub-IoEzyCjdCJ.jpg" alt="Black Clover (TV) - Black Clover (2017), Black Clover, Thế Giới Phép Thuật, Cỏ Ba Lá Đen (2017)" title="Black Clover (TV) (2017)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Black Clover (TV)</h2>
+                                            <span class="Year">Lượt xem: 57,262,767</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Black Clover (TV)</div>
+                                        <div class="Description">
+                                            <p class="infor">Asta và Yuno đã bị bỏ rơi cùng nhau tại cùng một nhà thờ và đã không thể tách rời kể từ đó. Khi còn trẻ, họ...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Studio Pierrot
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/ma-thuat/" title="Magic">Magic</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item" type-movie="favorite">
+                                <a href="https://animevietsub.fan/phim/the-gioi-hoan-my-a4098/">
+                                    <div class="image-article">
+                                        <img class="image-1" src="https://cdn.animevietsub.fan/data/poster/2022/04/01/animevsub-JcN7KtFxCe.jpg" alt="Thế Giới Hoàn Mỹ - Perfect World, Wanmei Shijie (2021)" title="Thế Giới Hoàn Mỹ (2021)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Thế Giới Hoàn Mỹ</h2>
+                                            <span class="Year">Lượt xem: 11,774,386</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Thế Giới Hoàn Mỹ</div>
+                                        <div class="Description">
+                                            <p class="infor">Một hạt bụi có thể lấp biển, một cọng cỏ chém hết mặt trời mặt trăng và ngôi sao, trong nháy mắt ở giữa...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Shanghai Foch Film and TV Culture Investment
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item" type-movie="month">
+                                <a href="https://animevietsub.fan/phim/seiken-gakuin-no-makentsukai-a5074/">
+                                    <div class="image-article">
+                                        <img class="image-1" src="https://cdn.animevietsub.fan/data/poster/2023/10/03/animevsub-g5DtescJd1.jpg" alt="Ma Kiếm Sư Tại Học Viện Thánh Kiếm - Seiken Gakuin no Makentsukai, The Demon Sword Master of Excalibur Academy, Magic Sword Master of Holy Sword School (2023)" title="Ma Kiếm Sư Tại Học Viện Thánh Kiếm (2023)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Ma Kiếm Sư Tại Học Viện Thánh Kiếm</h2>
+                                            <span class="Year">Lượt xem: 4,041,706</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Ma Kiếm Sư Tại Học Viện Thánh Kiếm</div>
+                                        <div class="Description">
+                                            <p class="infor">Ma Vương mạnh nhất Leonis phong ấn sự tồn tại của mình lại trong hơn 1000 năm để chuẩn bị cho trận chiến...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Passione 
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/truong-hoc/" title="School">School</a>
+                                                , <a href="https://animevietsub.fan/the-loai/harem/" title="Harem">Harem</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/ecchi/" title="Ecchi">Ecchi</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item" type-movie="month">
+                                <a href="https://animevietsub.fan/phim/tham-tu-lung-danh-conan-r3-a3/">
+                                    <div class="image-article">
+                                        <img class="image-1" src="https://cdn.animevietsub.fan/data/poster/2019/08/26/animevsub-bGw5lnUHTC.jpg" alt="Thám Tử Lừng Danh Conan - Detective Conan, Case Closed, Meitantei Conan (1996)" title="Thám Tử Lừng Danh Conan (1996)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Thám Tử Lừng Danh Conan</h2>
+                                            <span class="Year">Lượt xem: 38,629,070</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Thám Tử Lừng Danh Conan</div>
+                                        <div class="Description">
+                                            <p class="infor">Mở đầu câu truyện, cậu học sinh trung học 17 tuổi Shinichi Kudo bị biến thành cậu bé Conan Edogawa. Shinichi trong phần...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                TMS Entertainment
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/police/" title="Police">Police</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phieu-luu/" title="Adventure">Adventure</a>
+                                                , <a href="https://animevietsub.fan/the-loai/mystery/" title="Mystery">Mystery</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item" type-movie="month">
+                                <a href="https://animevietsub.fan/phim/konyaku-haki-sareta-reijou-wo-hirotta-ore-ga-ikenai-koto-wo-oshiekomu-a5066/">
+                                    <div class="image-article">
+                                        <img  class="image-1" src="https://cdn.animevietsub.fan/data/poster/2023/08/27/animevsub-9WN9igDHMH.jpg" title="Tôi Nhặt Được 1 Cô Gái Và Biến Cô Ấy Trở Thành Người Hạnh Phúc Nhất Thế Gian! (2023)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Tôi Nhặt Được 1 Cô Gái Và Biến Cô Ấy Trở Thành Người Hạnh Phúc Nhất Thế Gian!</h2>
+                                            <span class="Year">Lượt xem: 1,788,420</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Tôi Nhặt Được 1 Cô Gái Và Biến Cô Ấy Trở Thành Người Hạnh Phúc Nhất Thế Gian!</div>
+                                        <div class="Description">
+                                            <p class="infor">Allen, một pháp sư rất ghét con người và đang sống trong rừng sâu. Cậu bị những người xung quanh sợ hãi và...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Zero-G, Digital Network Animation
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/doi-thuong/" title="Slice of Life">Slice of Life</a>
+                                                , <a href="https://animevietsub.fan/the-loai/shounen/" title="Shounen">Shounen</a>
+                                                , <a href="https://animevietsub.fan/the-loai/tinh-cam/" title="Romance">Romance</a>
+                                                , <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="Movie-item" type-movie="month">
+                                <a href="https://animevietsub.fan/phim/kage-no-jitsuryokusha-ni-naritakute-a4699/">
+                                    <div class="image-article">
+                                        <img class="image-1" src="https://cdn.animevietsub.fan/data/poster/2022/10/05/animevsub-PeZHKapawP.jpg"  alt="Ta Muốn Trở Thành Chúa Tể Bóng Tối! - Kage no Jitsuryokusha ni Naritakute!, The Eminence in Shadow, Shadow Garden, Tao Muốn Làm Chúa Hề Bóng Tối (2022)" title="Ta Muốn Trở Thành Chúa Tể Bóng Tối! (2022)">
+                                        <div class="overlay1"></div>
+                                            <div class="button-playpause">
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </div>
+                                            <h2 class="Title">Ta Muốn Trở Thành Chúa Tể Bóng Tối!</h2>
+                                            <span class="Year">Lượt xem: 23,477,791</span>
+                                    </div>
+                                    <div class="TPMvCn1 anmt">
+                                        <div class="Title">Ta Muốn Trở Thành Chúa Tể Bóng Tối!</div>
+                                        <div class="Description">
+                                            <p>Như bao người ngưỡng mộ những anh hùng khi còn nhỏ, nhân vật chính của chúng ta lại ngưỡng mộ những con người...</p>
+                                            <p class="Studio AAIco-videocam">
+                                                <i class="fa-solid fa-video"></i>
+                                                <span>Studio:</span>
+                                                Nexus 
+                                            </p>
+                                            <p class="Genre AAIco-movie_creation">
+                                                <i class="fa-solid fa-clapperboard"></i>
+                                                <span>Thể loại:</span>
+                                                <a href="https://animevietsub.fan/the-loai/phep-thuat/" title="Fantasy">Fantasy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hai-huoc/" title="Comedy">Comedy</a>
+                                                , <a href="https://animevietsub.fan/the-loai/hanh-dong/" title="Action">Action</a>
+                                                ,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="/bang-xep-hang/day.html" class="viewall">
+                            Xem thêm.. <i class="ion-ios-arrow-right"></i>
+                            </a>
+                    </section>
+                </main>
+                <aside class="widget-area" role="complementary" aria-labelledby="sidebar-heading">
+                    <section class="Wdgt">
+                        <div class="Title">Hôm nay xem gì?</div>
+                        <p>Nếu bạn buồn phiền không biết xem gì hôm nay. Hãy để chúng tôi chọn cho bạn</p>
+                        <a href="https://animevietsub.fan/phim/kengan-ashura-a3584/" class="Button TPlay AAIco-play_arrow">
+                            Xem Anime <strong>Ngẫu Nhiên</strong>
+                        </a>
+                    </section>                 
+                    <section class="Wdgt" id="showChonLoc">
+                        <div class="Title">ANIME MỚI CẬP NHẬT</div>
+                        <ul class="MovieList Newepisode">
+                            <li>
+                                <a href="https://animevietsub.fan/phim/tate-no-yuusha-no-nariagari-season-3-a4901/" title="Xem Anime Tate no Yuusha no Nariagari Season 3">
+                                    <span>Tate no Yuusha no Nariagari Season 3</span>
+                                    <span>Full</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://animevietsub.fan/phim/sousou-no-frieren-a5073/" title="Xem Anime Pháp Sư Tiễn Táng Frieren">
+                                    <span>Pháp Sư Tiễn Táng Frieren</span>
+                                    <span>Tập 16</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://animevietsub.fan/phim/keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-a4928/" title="Xem Anime Kẻ Ngây Thơ, Người Từng Trải Và Câu Chuyện Tình Của Chúng Ta">
+                                    <span>Kẻ Ngây Thơ, Người Từng Trải Và Câu Chuyện Tình Của Chúng Ta</span>
+                                    <span>Full</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://animevietsub.fan/phim/goblin-slayer-2nd-season-i3-a4283/" title="Xem Anime Goblin Slayer II">
+                                    <span>Goblin Slayer II</span>
+                                    <span>Full</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://animevietsub.fan/phim/under-ninja-a5050/" title="Xem Anime Under Ninja">
+                                    <span>Under Ninja</span>
+                                    <span>Full</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://animevietsub.fan/phim/cuu-thien-huyen-de-quyet-a4272/" title="Xem Anime Cửu Thiên Huyền Đế Quyết">
+                                    <span>Cửu Thiên Huyền Đế Quyết</span>
+                                    <span>Tập 206</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://animevietsub.fan/phim/thap-phuong-vo-thanh-a5128/" title="Xem Anime Thập Phương Võ Thánh">
+                                    <span>Thập Phương Võ Thánh</span>
+                                    <span>Tập 08</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://animevietsub.fan/phim/vo-thuong-than-de-a3821/" title="Xem Anime Vô Thượng Thần Đế">
+                                    <span>Vô Thượng Thần Đế</span>
+                                    <span>Tập 337</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://animevietsub.fan/phim/nghich-thien-chi-ton-a4194/" title="Xem Anime Nghịch Thiên Chí Tôn">
+                                    <span>Nghịch Thiên Chí Tôn</span>
+                                    <span>Tập 260</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://animevietsub.fan/phim/dan-dao-chi-ton-a5170/" title="Xem Anime Đan Đạo Chí Tôn">
+                                    <span>Đan Đạo Chí Tôn</span>
+                                    <span>Tập 04</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/anime-moi/">Xem thêm..</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <div class="tag-list-main">
+                    <ul>
+                        <li class="tag-item">
+                            <a class="tag-link" title="List anime thể loại Action - Comedy" href="https://animevietsub.fan/danh-sach/all/1-3/all/all/">List anime thể loại Action - Comedy</a>
+                            <span class="tag-end">&nbsp;</span>
+                        </li>
+                        <li class="tag-item">
+                            <a class="tag-link" title="List anime thể loại Action  -Romance" href="https://animevietsub.fan/danh-sach/all/1-24/all/all/">List anime thể loại Action -Romance</a>
+                            <span class="tag-end">&nbsp;</span>
+                        </li>
+                        <li class="tag-item">
+                            <a class="tag-link" title=" List anime thể loại Harem - Comedy" href="https://animevietsub.fan/danh-sach/all/3-10/all/all/">List anime thể loại Harem - Comedy</a>
+                            <span class="tag-end">&nbsp;</span>
+                        </li>
+                        <li class="tag-item">
+                            <a class="tag-link" title=" List Phim Hoạt Hình Trung Quốc" href="https://animevietsub.fan/hoat-hinh-trung-quoc/">List Phim Hoạt Hình Trung Quốc</a>
+                            <span class="tag-end">&nbsp;</span>
+                        </li>
+                        <li class="tag-item">
+                            <a class="tag-link" title="List anime Ghibli " href="https://animevietsub.fan/tag/ghibli/">List anime Ghibli </a>
+                            <span class="tag-end">&nbsp;</span>
+                        </li>
+                        <li class="tag-item">
+                            <a class="tag-link" title=" List anime của studio MAPPA" href="https://animevietsub.fan/studio/MAPPA.html">List anime của studio MAPPA</a>
+                            <span class="tag-end">&nbsp;</span>
+                        </li>
+                        <li class="tag-item">
+                            <a class="tag-link" title=" List anime của studio TOEI ANIMATION" href="https://animevietsub.fan/studio/Toei Animation.html">List anime của studio TOEI ANIMATION</a>
+                            <span class="tag-end">&nbsp;</span>
+                        </li>
+                        <li class="tag-item">
+                            <a class="tag-link" title=" List anime của studio TMS ENTERTAINMENT" href="https://animevietsub.fan/studio/TMS Entertainment.html">List anime của studio TMS ENTERTAINMENT</a>
+                            <span class="tag-end">&nbsp;</span>
+                        </li>
+                    </ul>
+                    </div>
+                </aside> 
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-first">
+            <img class="fo-lo" src="../image/logo2.png" alt="logo">
+            <div class="footer-icon">
+                <a href="https://www.facebook.com/groups/233536333844133" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/animevsub/" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="tele"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FAnimeVsub" class="twt"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#top" class="up"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+        <div class="footer-second">
+            <a href="file:///D:/nopbaiweb/html/baitap.html" class="fo-copy">copyright&copy ANIMEDTC.ANIME VIETSUB</a>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="../js/baitap.js"></script>
+    <script src="../js/slideshowmobile.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

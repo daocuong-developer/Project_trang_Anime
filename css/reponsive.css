@@ -1,0 +1,745 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	body{
+		width: 100%;
+	}
+	.nav{
+		width: 100%;
+	}
+	.logo{
+		margin-left: -30px;
+	}
+	.menu{
+		display: none;
+	}
+	#search{
+		display: block;
+	}
+	.nav_bars-button{
+		display: block;
+		font-size: 1.4rem;
+        margin-right: 10px;
+		background-color: #212121;
+	}
+    .container-body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .announcement{
+        width: 100%;
+        margin: 0 auto 10px;
+    }
+    .movielisttop{
+        width: 100%;
+        margin:0 auto;
+    }
+    .image-container{
+        width: 100%;
+        height: 100%;
+    }
+    .movie-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .TpRwCont{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .MovieListSldCn{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .TPost.D{
+        width: 100%;
+        height: 33.625em;
+        position: relative;
+    }
+    .TPMvCn{
+        position: absolute;
+        top: 250px;
+        left: 0;
+        display: block;
+        background-color: rgba(0,0,0,.4);
+        color: #fff;
+        width: 100%;
+        box-shadow: none;
+        padding: 1.25rem;
+        border-radius:0 ;
+        z-index: 2;
+        min-width: 100%;
+    }
+    .Image .TPostBg{
+        width: 100%;
+        height: 250px;
+    }
+    .TPost.D .Title {
+        font-size: 1.25em;
+        max-height: 62px;
+        padding-bottom: 4rem;
+        line-height: 1.3;
+        margin-bottom: .3em;
+        color: white;
+        
+    }
+    .TPost.D .Description {
+        line-height: 1.7;
+        font-weight: bold;
+        color: #78909c;
+    }
+    .TPost.D .Description a{
+        color: white;
+        font-size: .875rem;
+    }
+
+    .Movie-dots{
+        position: absolute;
+        right: 10px;
+        top: 228px;
+        z-index: 2;
+    }
+
+    .single-home .Top{
+        display: inline;
+        margin-bottom: 5px;
+    }
+    .single-home .Top h1 {
+        font-size: 14px;
+        padding: 4px;
+    }
+    .single-home .Top .STPb{
+        padding: 0 10px;
+    }
+    .single-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .image-1{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .image-article{
+        width: 180px;
+        height: 280px;
+        margin: 5px;
+        grid-row: span 1;
+        grid-column: span 1;
+        position: relative;
+        display: inline-block;	
+    }
+    .new-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .mli-timeschedule{
+        position: absolute;
+        bottom:5px;
+        left: 26px;
+        color: white;
+        background-color: red;
+        padding: 5px 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .hot-home .Top{
+        margin-bottom: 5px;
+    }
+    .hot-home .Top h1 {
+        color: #eee;
+        font-size: 16px;
+        background: linear-gradient(81.43deg,#b71c1c -26.81%,#8e1438 87.89%);
+        border-radius: 6px;
+        padding: 4px;
+        text-transform: uppercase;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    .Top button{
+        outline: none;
+        margin-right:5px ;
+        border: 1px solid green;
+        padding: 5px 10px;
+        border-radius: 25px;
+        background: linear-gradient(81.43deg,#b71c1c -26.81%,#8e1438 87.89%);
+        color: white;
+    }
+    .Top button:hover{
+        opacity: 0.7;
+        border: none;
+    }
+    .hot-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .widget-area{
+        width: 100%;
+        height: auto;
+    }
+    .footer{
+        width: 100%;
+        height: 21.875em;
+    }
+    .footer .footer-first{
+        width: 100%;
+        height: 18.75em;
+        background-color: rgb(36, 35, 35);
+        position: relative;
+    }
+    .footer-first .fo-lo{
+        width:12.5em;
+        height:12.5em;
+        position: absolute;
+        left: 7rem;
+    }
+    .footer-icon{
+        position: absolute;
+        top:15rem;
+        right: 6rem;
+        font-size: 2rem;
+    }
+    .footer-second{
+        width: 100%;
+        height: 3.125em;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        line-height: 4rem;
+    }
+    .footer-second .fo-copy{
+        position: absolute;
+        color: gray;
+        left: 4em;
+    }
+    
+}
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .logo{
+        position: absolute;
+        left: 1px;
+    }
+    .single-home .MovieListRows {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .new-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .hot-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:768px) {
+    body{
+		width: 100%;
+	}
+	.nav{
+		width: 100%;
+	}
+	.logo{
+		margin-left: -30px;
+	}
+	.menu{
+		display: none;
+	}
+	#search{
+		display: block;
+	}
+	.nav_bars-button{
+		display: block;
+		font-size: 1.4rem;
+        margin-right: 10px;
+		background-color: #212121;
+	}
+    .container-body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .announcement{
+        width: 100%;
+        margin: 0 auto 10px;
+    }
+    .movielisttop{
+        width: 100%;
+        margin:0 auto;
+    }
+    .image-container{
+        width: 100%;
+        height: 100%;
+    }
+    .movie-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .TpRwCont{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .MovieListSldCn{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .TPost.D{
+        width: 100%;
+        height: 33.625em;
+        position: relative;
+    }
+    .TPMvCn{
+        position: absolute;
+        top: 250px;
+        left: 0;
+        display: block;
+        background-color: rgba(0,0,0,.4);
+        color: #fff;
+        width: 100%;
+        box-shadow: none;
+        padding: 1.25rem;
+        border-radius:0 ;
+        z-index: 2;
+        min-width: 100%;
+    }
+    .Image .TPostBg{
+        width: 100%;
+        height: 250px;
+    }
+    .TPost.D .Title {
+        font-size: 1.25em;
+        max-height: 62px;
+        padding-bottom: 4rem;
+        line-height: 1.3;
+        margin-bottom: .3em;
+        color: white;
+        
+    }
+    .TPost.D .Description {
+        line-height: 1.7;
+        font-weight: bold;
+        color: #78909c;
+    }
+    .TPost.D .Description a{
+        color: white;
+        font-size: .875rem;
+    }
+
+    .Movie-dots{
+        position: absolute;
+        right: 10px;
+        top: 228px;
+        z-index: 2;
+    }
+
+    .single-home .Top{
+        display: inline;
+        margin-bottom: 5px;
+    }
+    .single-home .Top h1 {
+        font-size: 14px;
+        padding: 4px;
+    }
+    .single-home .Top .STPb{
+        padding: 0 10px;
+    }
+    .single-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .image-1{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .image-article{
+        width: 180px;
+        height: 280px;
+        margin: 5px;
+        grid-row: span 1;
+        grid-column: span 1;
+        position: relative;
+        display: inline-block;	
+    }
+    .new-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .mli-timeschedule{
+        position: absolute;
+        bottom:5px;
+        left: 26px;
+        color: white;
+        background-color: red;
+        padding: 5px 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .hot-home .Top{
+        margin-bottom: 5px;
+    }
+    .hot-home .Top h1 {
+        color: #eee;
+        font-size: 16px;
+        background: linear-gradient(81.43deg,#b71c1c -26.81%,#8e1438 87.89%);
+        border-radius: 6px;
+        padding: 4px;
+        text-transform: uppercase;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    .Top button{
+        outline: none;
+        margin-right:5px ;
+        border: 1px solid green;
+        padding: 5px 10px;
+        border-radius: 25px;
+        background: linear-gradient(81.43deg,#b71c1c -26.81%,#8e1438 87.89%);
+        color: white;
+    }
+    .Top button:hover{
+        opacity: 0.7;
+        border: none;
+    }
+    .hot-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .widget-area{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 576px)  {
+	body{
+		width: 100%;
+	}
+	.nav{
+		width: 100%;
+	}
+	.logo{
+		margin-left: -30px;
+	}
+	.menu{
+		display: none;
+	}
+	#search{
+		display: block;
+	}
+	.nav_bars-button{
+		display: block;
+		font-size: 1.4rem;
+        margin-right: 10px;
+		background-color: #212121;
+	}
+    .container-body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .announcement{
+        width: 100%;
+        margin: 0 auto 10px;
+    }
+    .movielisttop{
+        width: 100%;
+        margin:0 auto;
+    }
+    .image-container{
+        width: 100%;
+        height: 100%;
+    }
+    .movie-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .TpRwCont{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .MovieListSldCn{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .TPost.D{
+        width: 100%;
+        height: 33.625em;
+        position: relative;
+    }
+    .TPMvCn{
+        position: absolute;
+        top: 250px;
+        left: 0;
+        display: block;
+        background-color: rgba(0,0,0,.4);
+        color: #fff;
+        width: 100%;
+        box-shadow: none;
+        padding: 1.25rem;
+        border-radius:0 ;
+        z-index: 2;
+        min-width: 100%;
+    }
+    .Image .TPostBg{
+        width: 100%;
+        height: 250px;
+    }
+    .TPost.D .Title {
+        font-size: 1.25em;
+        max-height: 62px;
+        padding-bottom: 4rem;
+        line-height: 1.3;
+        margin-bottom: .3em;
+        color: white;
+        
+    }
+    .TPost.D .Description {
+        line-height: 1.7;
+        font-weight: bold;
+        color: #78909c;
+    }
+    .TPost.D .Description a{
+        color: white;
+        font-size: .875rem;
+    }
+
+    .Movie-dots{
+        position: absolute;
+        right: 10px;
+        top: 228px;
+        z-index: 2;
+    }
+
+    .single-home .Top{
+        display: inline;
+        margin-bottom: 5px;
+    }
+    .single-home .Top h1 {
+        font-size: 14px;
+        padding: 4px;
+    }
+    .single-home .Top .STPb{
+        padding: 0 10px;
+    }
+    .single-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .image-1{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .image-article{
+        width: 180px;
+        height: 280px;
+        margin: 5px;
+        grid-row: span 1;
+        grid-column: span 1;
+        position: relative;
+        display: inline-block;	
+    }
+    .new-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .mli-timeschedule{
+        position: absolute;
+        bottom:5px;
+        left: 26px;
+        color: white;
+        background-color: red;
+        padding: 5px 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .hot-home .Top{
+        margin-bottom: 5px;
+    }
+    .hot-home .Top h1 {
+        color: #eee;
+        font-size: 16px;
+        background: linear-gradient(81.43deg,#b71c1c -26.81%,#8e1438 87.89%);
+        border-radius: 6px;
+        padding: 4px;
+        text-transform: uppercase;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    .Top button{
+        outline: none;
+        margin-right:5px ;
+        border: 1px solid green;
+        padding: 5px 10px;
+        border-radius: 25px;
+        background: linear-gradient(81.43deg,#b71c1c -26.81%,#8e1438 87.89%);
+        color: white;
+    }
+    .Top button:hover{
+        opacity: 0.7;
+        border: none;
+    }
+    .hot-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .widget-area{
+        width: 100%;
+        height: auto;
+    }
+    .footer{
+        width: 100%;
+        height: 21.875em;
+    }
+    .footer .footer-first{
+        width: 100%;
+        height: 18.75em;
+        background-color: rgb(36, 35, 35);
+        position: relative;
+    }
+    .footer-first .fo-lo{
+        width:12.5em;
+        height:12.5em;
+        position: absolute;
+        left: 7rem;
+    }
+    .footer-icon{
+        position: absolute;
+        top:15rem;
+        right: 6rem;
+        font-size: 2rem;
+    }
+    .footer-second{
+        width: 100%;
+        height: 3.125em;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        line-height: 4rem;
+    }
+    .footer-second .fo-copy{
+        position: absolute;
+        color: gray;
+        left: 4em;
+    }
+    
+}
+@media screen and (min-width: 1201px) and (max-width:1400px){
+    .logo{
+        position: absolute;
+        left: 1px;
+    }
+    .single-home .MovieListRows {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .new-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+    .hot-home .MovieListRows{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-row-gap: 20px;
+        margin: 0;
+    }
+
+}

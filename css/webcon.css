@@ -1,0 +1,470 @@
+body {
+	width: 100%;
+	background-color: #3b464c;
+}
+
+* {
+	padding: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: alata,sans-serif;
+  	text-decoration: none;
+  	list-style-type: none;
+}
+.nav{
+	background-color: rgb(16, 15, 15);
+	display: flex;
+	min-height: 60px;
+	line-height: 60px;
+	justify-content: center;
+	position: relative;
+	
+}
+.logo{
+	height: 65px;
+	position: absolute;
+	left: 10%;
+}
+.menu{
+	display: flex;
+}
+.menu a{
+	color: white;
+}
+.menu li{
+	padding: 0px 10px;
+	font-size: 13px;
+	text-align: center;
+	border-bottom:2px solid greenyellow ;
+}
+
+.menu li a:hover{
+	color: rgb(103, 98, 98);
+}
+.menu_down{
+	background: white;
+	width: 400px;
+	line-height: 3em;
+	border-top: 5px solid greenyellow;
+}
+.menu_down li{
+	text-align: left;
+}
+.menu_down a{
+	color: black;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.menu .menu_link>.menu_down{
+	display: none;
+	position: absolute;
+}
+.menu .menu_link>.menu_down li{
+	position: relative;
+}
+.menu .menu_link:hover .menu_down{
+	display: block;
+}
+.menu_down li:hover{
+	background-color: #201f1f3a;
+}
+.menu_link .menu_down{
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 10px;
+	-moz-column-gap: 10px;
+	column-gap: 10px;
+}
+.nav input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+	background: #212121;
+	color: white;
+  }
+  
+.nav #search button {
+	float: right;
+	padding: 6px 10px;
+	margin-top: 13.5px;
+	margin-right: 16px;
+	background: #212121;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+  
+.nav #search button:hover {
+	background: #4a4a4a;
+}
+.fa-magnifying-glass{
+	color: white;
+}
+.nav .login{
+	background-color: red;
+	float: right;
+	padding: 0px 10px;
+	height: 3em;
+	margin-top: 10px;
+	line-height: 3em;
+}
+
+.login .login_a:hover{
+	color: rgb(50, 50, 50);
+}
+.login:hover{
+	background-color: #3a372f;
+}
+
+
+
+/*CONTAINER BODY*/
+.container-body{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+.content{
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	margin-top:10px ;
+	padding: 18px;
+	background-color: #212121;
+}
+.announcement{
+	width: 98%;
+	height: auto;
+	margin: 0 auto;
+	padding: 2%;
+	background-color: rgb(48, 46, 46);
+	margin-bottom: 5px;
+}
+.announcement .ann_title{
+	padding: 5px 7px;
+	background-color: rgb(0,0,0,.17);
+	border-radius: 50%;
+	margin-left: -5px;
+	color: white;
+}
+.announcement ul{
+	padding-left: 2em;
+	color: white;
+}
+.announcement li{
+	list-style-type: circle;
+	line-height: 2;	
+}
+.announcement li a{
+	color: white;
+}
+
+.breadcrumb{
+	width: 100%;
+	padding: 8px 366px 8px 0px;
+    margin-bottom: 10px;
+    list-style: none;
+    border-radius: 4px;
+	display: flex;
+}
+
+.breadcrumb a{
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.TpRwCont{
+	width: 100%;
+	/* height: auto;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #212121; */
+	display: table;
+	table-layout: fixed;
+}
+main{
+	width: 75%;
+	height: auto;
+	float: left;
+	/* margin: 0 auto; */
+	padding: 2%;
+}
+.TPost.Single{
+	width: 100%;
+	height: auto;
+}
+.bg_ima{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.imabg{
+	width: 100%;
+	height: 29.8125em;
+}
+.bg_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+header{
+	position: absolute;
+	top: 52px;
+	left: 3px;
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.allTitle{
+	width: 65%;
+	height: auto;
+	padding: 0 ;
+	margin: 0 auto;
+	line-height: 2;
+}
+.allTitle .Title{
+	font-size: 23px;
+	color: greenyellow;
+}
+.allTitle .SubTitle{
+	font-size: 18px;
+	color: white;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.allTitle .Description{
+	font-size: 15px;
+	color: rgb(208, 204, 204);
+}
+.Image{
+	width: 30%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+.image-container{
+	width: 11.25em;
+	height: 16.25em;
+	position: relative;
+}
+.movie-image{
+	width: 100%;
+	height: 100%;
+}
+.movie-image{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(56, 53, 53, 0.49);
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+  
+.image-container:hover .overlay {
+	opacity: 1;
+}
+.play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: opacity 0.3s  ease-in-out;
+}
+.play-button i {
+	font-size: 3rem;
+	color: rgb(225, 225, 225);
+}
+
+.image-container:hover .play-button{
+	opacity: 1;
+}
+.movie-see{
+	position: absolute;
+	bottom: 15px;
+	left: 39px;
+}
+.movie-see .xemphim{
+	padding: 5px 25px;
+	background-color: #c33838;
+	color: white;
+}
+/*ASIDE*/
+.widget-area{
+	width: 23%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+	padding-top: 2%;
+}
+.Wdgt{
+	width: 100%;
+	height: auto;
+	position: relative;
+    margin-bottom: 1.25rem;
+    padding: 10px;
+	background-color: rgb(17, 17, 17);
+}
+.Wdgt .Title{
+	margin-bottom: 1.25rem;
+    padding-bottom: 0.7rem;
+    line-height: 19px;
+    font-weight: bold;
+	color: white;
+	position: absolute;
+	top:0.7rem;
+	left: 0.4rem;
+	border-bottom: 2px solid greenyellow;
+}
+.Wdgt p{
+	margin-top: 2.5rem;
+	margin-bottom: 0.8rem;
+	color: grey;
+	font-size: 15px;
+}
+.Wdgt .AAIco-play_arrow{
+	margin-bottom: 1rem;
+	font-size: 13px;
+}
+#showChonLoc ul.MovieList {
+	margin-top: 2.5rem;
+}
+
+ul.MovieList.Newepisode li {
+    padding: 5px 6px 5px 5px;
+    font-size: 13px;
+	border-bottom: 1px solid #3a3939;
+    margin-bottom: 0;
+}
+ul.MovieList.Newepisode li a span:first-child {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%;
+    vertical-align: middle;
+    color: #ce9090;
+	font-weight: bold;
+}
+ul.MovieList.Newepisode li a span:last-child {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    color: #5f5f5f;
+    font-style: italic;
+}
+ul.MovieList.Newepisode li a{
+	color: white;
+}
+ul.MovieList.Newepisode li:hover{
+	color: white;
+	border-left: 3px solid red;
+}
+ul.MovieList.Newepisode li:hover a span{
+	color: white;
+}
+
+.tag-list-main{
+	background-color: rgb(17, 17, 17);
+	padding: 10px;
+}
+.tag-list-main ul .tag-item {
+    padding: 3px 5px;
+    margin: 1px -5px;
+    display: inline-block;
+    border-left: 5px solid #c33838;
+    background: rgba(0,0,0,.26);
+    text-transform: lowercase;
+    border-radius: 3px;
+	
+}
+.tag-list-main ul .tag-item .tag-link{
+	color: white;
+	font-size: 13px;
+}
+.tag-list-main ul .tag-item:hover{
+	opacity: 0.7;
+}
+.footer{
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 1.3rem;
+}
+.footer .footer-first{
+	width: 100%;
+	height: 4rem;
+	background-color: rgb(36, 35, 35);
+	display: flex;
+	position: relative;
+}
+.footer-first .fo-lo{
+	position: absolute;
+	width: 4rem;
+	height: 4rem;
+	left: 3rem;
+}
+.footer-icon{
+	position: absolute;
+	top:1rem;
+	right: 3rem;
+	font-size: 2rem;
+}
+.fb{
+	padding: 0.4rem;
+	background-color: #3b464c;
+}
+.insta{
+	padding: 0.4rem;
+	background-color: #3b464c;
+}
+.tele{
+	padding: 0.4rem;
+	background-color: #3b464c;
+}
+.twt{
+	padding: 0.4rem;
+	background-color: #3b464c;
+}
+.up{
+	padding: 0.4rem;
+	background-color: greenyellow;
+}
+.footer-icon a{
+	color: white;
+	opacity: 0.7;
+}
+.footer-icon a:hover{
+	opacity: 1;
+}
+.footer-second{
+	width: 100%;
+	height: 4rem;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	line-height: 4rem;
+}
+.footer-second .fo-copy{
+	position: absolute;
+	color: gray;
+	left: 35%;
+}
